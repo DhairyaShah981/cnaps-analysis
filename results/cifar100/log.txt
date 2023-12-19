@@ -1,0 +1,42 @@
+Options: Namespace(dataset='cifar100', test_datasets=['ilsvrc_2012', 'omniglot', 'aircraft', 'cu_birds', 'dtd', 'quickdraw', 'fungi', 'vgg_flower', 'traffic_sign', 'mscoco', 'mnist', 'cifar10', 'cifar100'], data_path='/media/cvig/zoneb/pml/cnaps/meta-dataset/meta_dataset/records', pretrained_resnet_path='/media/cvig/zoneb/pml/cnaps/models/pretrained_resnet.pt.tar', mode='train_test', learning_rate=0.0005, tasks_per_batch=16, checkpoint_dir='../latestgpucifar100', test_model_path=None, feature_adaptation='film', batch_normalization='basic', training_iterations=10000, val_freq=2000, max_way_train=40, max_way_test=50, max_support_train=400, max_support_test=500, resume_from_checkpoint=False, way=5, shot=1, query_train=10, query_test=10)
+
+Checkpoint Directory: ../latestgpucifar100
+
+Task [1000/10000], Train Loss: 10.5123110, Train Accuracy: 0.3513600
+Task [2000/10000], Train Loss: 3.8764999, Train Accuracy: 0.4586600
+
+Validation Accuracies:
+cifar100: 46.9+/-1.8
+
+Best validation model was updated.
+
+Task [3000/10000], Train Loss: 3.3295689, Train Accuracy: 0.5402600
+Task [4000/10000], Train Loss: 2.9500616, Train Accuracy: 0.5944999
+
+Validation Accuracies:
+cifar100: 51.5+/-1.9
+
+Best validation model was updated.
+
+Task [5000/10000], Train Loss: 2.6867900, Train Accuracy: 0.6415400
+Task [6000/10000], Train Loss: 2.3767889, Train Accuracy: 0.6919600
+
+Validation Accuracies:
+cifar100: 49.2+/-2.0
+
+Task [7000/10000], Train Loss: 3.2613056, Train Accuracy: 0.5792800
+Task [8000/10000], Train Loss: 2.3266392, Train Accuracy: 0.6943400
+
+Validation Accuracies:
+cifar100: 58.5+/-1.9
+
+Best validation model was updated.
+
+Task [9000/10000], Train Loss: 2.1207263, Train Accuracy: 0.7242200
+Task [10000/10000], Train Loss: 1.9575686, Train Accuracy: 0.7500800
+
+Testing model ../latestgpucifar100/fully_trained.pt: 
+cifar100: 67.0+/-1.0
+
+Testing model ../latestgpucifar100/best_validation.pt: 
+cifar100: 66.0+/-1.0

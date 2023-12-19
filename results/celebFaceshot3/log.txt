@@ -1,0 +1,42 @@
+Options: Namespace(dataset='celebFace150v2', test_datasets=['ilsvrc_2012', 'omniglot', 'aircraft', 'cu_birds', 'dtd', 'quickdraw', 'fungi', 'vgg_flower', 'traffic_sign', 'mscoco', 'mnist', 'cifar10', 'cifar100'], data_path='/media/cvig/zoneb/pml/cnaps/meta-dataset/meta_dataset/records', pretrained_resnet_path='/media/cvig/zoneb/pml/cnaps/models/pretrained_resnet.pt.tar', mode='train_test', learning_rate=0.0005, tasks_per_batch=16, checkpoint_dir='../celebFaceshot3', test_model_path=None, feature_adaptation='film', batch_normalization='basic', training_iterations=10000, val_freq=2000, max_way_train=40, max_way_test=50, max_support_train=400, max_support_test=500, resume_from_checkpoint=False, way=5, shot=3, query_train=10, query_test=10)
+
+Checkpoint Directory: ../celebFaceshot3
+
+Task [1000/10000], Train Loss: 8.4283123, Train Accuracy: 0.4361200
+Task [2000/10000], Train Loss: 2.8147731, Train Accuracy: 0.6126000
+
+Validation Accuracies:
+celebFace150v2: 63.7+/-1.6
+
+Best validation model was updated.
+
+Task [3000/10000], Train Loss: 2.1638939, Train Accuracy: 0.7083200
+Task [4000/10000], Train Loss: 1.8236325, Train Accuracy: 0.7577600
+
+Validation Accuracies:
+celebFace150v2: 65.1+/-1.7
+
+Best validation model was updated.
+
+Task [5000/10000], Train Loss: 1.6914159, Train Accuracy: 0.7744199
+Task [6000/10000], Train Loss: 1.5777061, Train Accuracy: 0.7892199
+
+Validation Accuracies:
+celebFace150v2: 64.8+/-1.7
+
+Task [7000/10000], Train Loss: 1.4265946, Train Accuracy: 0.8084999
+Task [8000/10000], Train Loss: 1.3570973, Train Accuracy: 0.8212200
+
+Validation Accuracies:
+celebFace150v2: 67.9+/-1.7
+
+Best validation model was updated.
+
+Task [9000/10000], Train Loss: 1.5642933, Train Accuracy: 0.8051199
+Task [10000/10000], Train Loss: 2.1846778, Train Accuracy: 0.7101200
+
+Testing model ../celebFaceshot3/fully_trained.pt: 
+celebFace150v2: 63.9+/-1.1
+
+Testing model ../celebFaceshot3/best_validation.pt: 
+celebFace150v2: 64.6+/-1.0

@@ -1,0 +1,36 @@
+Options: Namespace(dataset='mnist', test_datasets=['ilsvrc_2012', 'omniglot', 'aircraft', 'cu_birds', 'dtd', 'quickdraw', 'fungi', 'vgg_flower', 'traffic_sign', 'mscoco', 'mnist', 'cifar10', 'cifar100'], data_path='/media/cvig/zoneb/pml/cnaps/meta-dataset/meta_dataset/records', pretrained_resnet_path='/media/cvig/zoneb/pml/cnaps/models/pretrained_resnet.pt.tar', mode='train_test', learning_rate=0.0005, tasks_per_batch=16, checkpoint_dir='../latestgpu', test_model_path=None, feature_adaptation='film', batch_normalization='basic', training_iterations=8000, val_freq=2000, max_way_train=40, max_way_test=50, max_support_train=400, max_support_test=500, resume_from_checkpoint=False, way=5, shot=1, query_train=10, query_test=10)
+
+Checkpoint Directory: ../latestgpu
+
+Task [1000/8000], Train Loss: 6.5164132, Train Accuracy: 0.7460600
+Task [2000/8000], Train Loss: 0.5957083, Train Accuracy: 0.9137999
+
+Validation Accuracies:
+mnist: 67.2+/-2.4
+
+Best validation model was updated.
+
+Task [3000/8000], Train Loss: 0.1265931, Train Accuracy: 0.9870000
+Task [4000/8000], Train Loss: 0.0504959, Train Accuracy: 0.9947199
+
+Validation Accuracies:
+mnist: 89.5+/-1.3
+
+Best validation model was updated.
+
+Task [5000/8000], Train Loss: 0.0251805, Train Accuracy: 0.9975400
+Task [6000/8000], Train Loss: 0.0114117, Train Accuracy: 0.9988801
+
+Validation Accuracies:
+mnist: 92.7+/-0.8
+
+Best validation model was updated.
+
+Task [7000/8000], Train Loss: 0.0263404, Train Accuracy: 0.9976399
+Task [8000/8000], Train Loss: 0.0221925, Train Accuracy: 0.9978001
+
+Testing model ../latestgpu/fully_trained.pt: 
+mnist: 73.9+/-1.2
+
+Testing model ../latestgpu/best_validation.pt: 
+mnist: 79.7+/-0.9
