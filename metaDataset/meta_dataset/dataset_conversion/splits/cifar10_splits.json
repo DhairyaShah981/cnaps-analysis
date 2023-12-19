@@ -1,0 +1,17 @@
+{
+  "train": [
+  "airplane",
+  "automobile",
+  "bird",
+  "cat",
+  "deer",
+  "dog"],
+  "valid": [
+  "frog",
+  "horse"
+  ],
+  "test": [
+    "ship",
+    "truck"
+  ]
+}

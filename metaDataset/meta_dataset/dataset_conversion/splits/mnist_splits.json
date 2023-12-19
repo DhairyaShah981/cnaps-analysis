@@ -1,0 +1,18 @@
+{
+  "train": [
+  "class_0",
+  "class_1",
+  "class_2",
+  "class_3",
+  "class_4",
+  "class_9"
+  ],
+  "valid": [
+  "class_6",
+  "class_7"
+  ],
+  "test": [
+    "class_5",
+    "class_8"
+  ]
+}

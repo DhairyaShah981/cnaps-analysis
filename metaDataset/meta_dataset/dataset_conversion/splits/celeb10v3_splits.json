@@ -1,0 +1,18 @@
+{
+  "train": [
+  "Bald",
+  "Big_Lips",
+  "Receding_Hairline",
+  "Wearing_Hat",
+  "Brown_Hair",
+  "Pale_Skin"
+],
+  "valid": [
+  "Bangs",
+  "Blond_Hair"
+],
+  "test": [
+  "Black_Hair",
+  "Eyeglasses"
+  ]
+}
