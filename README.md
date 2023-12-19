@@ -24,13 +24,13 @@ Along with the above datasets, we also used the following datasets:
 
 The details of precedure, inference and results can be found in the [presentation](https://github.com/RYeeshuDhurandhar/cnaps/blob/main/presentation.pdf) and [report](https://github.com/RYeeshuDhurandhar/cnaps/blob/main/report.pdf).
 
-## Other collaborators:
+# Other collaborators:
 - Bhavesh Jain
 - Dhairya Shah
 - Lipika Rajpal
 - Rahul Chembakasseril
 
-## Mentors:
+# Mentors:
 - Prof. Nipun Batra
 - Madhav Kanda
 - Sarth Dubey
