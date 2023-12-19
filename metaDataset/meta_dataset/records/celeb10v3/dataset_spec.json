@@ -1,0 +1,35 @@
+{
+  "name": "celeb10v3",
+  "classes_per_split": {
+    "TRAIN": 6,
+    "VALID": 2,
+    "TEST": 2
+  },
+  "images_per_class": {
+    "0": 1600,
+    "1": 1600,
+    "2": 1600,
+    "3": 1600,
+    "4": 1600,
+    "5": 1600,
+    "6": 1600,
+    "7": 1600,
+    "8": 1600,
+    "9": 1600
+  },
+  "class_names": {
+    "0": "Bald",
+    "1": "Bangs",
+    "2": "Big_Lips",
+    "3": "Black_Hair",
+    "4": "Blond_Hair",
+    "5": "Brown_Hair",
+    "6": "Eyeglasses",
+    "7": "Pale_Skin",
+    "8": "Receding_Hairline",
+    "9": "Wearing_Hat"
+  },
+  "path": "/media/cvig/zoneb/pml/cnaps/meta-dataset/meta_dataset/records/celeb10v3",
+  "file_pattern": "{}.tfrecords",
+  "__class__": "DatasetSpecification"
+}
